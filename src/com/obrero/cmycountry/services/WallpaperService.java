@@ -1,16 +1,13 @@
 package com.obrero.cmycountry.services;
 
-import android.app.IntentService;
 import android.app.Service;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.IBinder;
 import com.obrero.cmycountry.R;
-
 import java.io.IOException;
 import java.util.Timer;
 import java.util.TimerTask;

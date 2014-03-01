@@ -11,7 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.adapter.DrawerItemAdapter;
 import com.obrero.cmycountry.dto.DrawerItem;
 
@@ -37,16 +36,10 @@ public class Home extends Activity {
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
         
-        drawerToggle = new ActionBarDrawerToggle(this,
-                drawerLayout,
-                R.drawable.ic_launcher,
-                R.string.open_drawer,
-                R.string.close_drawer){
-
+        drawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.drawable.ic_launcher,R.string.open_drawer,R.string.close_drawer){
             public void onDrawerClosed(View view) {
                 Log.d(TAG, "opened Drawer");
             }
-
 
             /** Called when a drawer has settled in a completely open state. */
 

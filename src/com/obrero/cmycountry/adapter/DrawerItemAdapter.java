@@ -1,16 +1,15 @@
 package com.obrero.cmycountry.adapter;
 
+import com.obrero.cmycountry.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.dto.DrawerItem;
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 /**
  * Created by Eefret on three/one/14.
